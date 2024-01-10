@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/booking.css">
+    <title>Booking</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1 class="title">Booking</h1>
+        <form action="/form-action.php" method="post" id="booking-form">
+            <label class="text-label" for="full-name">Full Name</label>
+            <input type="text" id="full-name" placeholder="Your name">
+            <label class="text-label" for="email">Email</label>
+            <input type="email" id="email" placeholder="">
+            <label class="text-label" for="tel">Phone number</label>
+            <input type="number" id="tel" placeholder="0983883888">
+            <label class="text-label" for="destination">Destination</label>
+            <select type="text" id="destination">
+                <option value="1">Da Nang</option>
+                <option value="2">Sam Son</option>
+                <option value="1">Ha Long</option>
+            </select>
+            <label class="text-label" for="date">Date</label>
+            <input type="date"  id="date">
+            <input type="submit" value="Submit" id="btn-submit">
+        </form>
+    </div>
+</body>
+
+</html>
